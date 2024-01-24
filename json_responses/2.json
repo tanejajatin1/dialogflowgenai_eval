@@ -1,0 +1,325 @@
+{
+  "responseId": "ab4664d1-638d-4669-942c-d2951b1115ec",
+  "queryResult": {
+    "text": "when did he die?",
+    "languageCode": "en",
+    "responseMessages": [
+      {
+        "text": {
+          "text": [
+            "Swami Vivekananda died on 4 July 1902."
+          ]
+        }
+      },
+      {
+        "payload": {
+          "richContent": [
+            [
+              {
+                "actionLink": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1",
+                "subtitle": "Swami Vivekananda (/ˈswɑːmi ˌvɪveɪˈkɑːnəndə/; Bengali: [ʃami bibekanɔndo] ⓘ; IAST: Swāmī Vivekānanda ; 12 January 1863 …",
+                "title": "Swami Vivekananda",
+                "type": "info"
+              }
+            ]
+          ]
+        }
+      }
+    ],
+    "currentPage": {
+      "name": "projects/ai-learnings-411713/locations/global/agents/23ed144e-d322-4a28-91a1-6d8088a72cda/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+      "displayName": "Start Page"
+    },
+    "intentDetectionConfidence": 1.0,
+    "diagnosticInfo": {
+      "DataStore Execution Sequence": {
+        "executionResult": {
+          "language": "en",
+          "latency": 0.0,
+          "website_citation": false,
+          "banned_phrase": "",
+          "response_reason": "NONE",
+          "faq_citation": false,
+          "response_type": "GENERATIVE",
+          "unstructured_citation": true,
+          "ucs_fallback": false
+        },
+        "steps": [
+          {
+            "info": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778",
+            "status": {
+              "code": "OK"
+            },
+            "responses": [
+              {
+                "text": "Ucs content search result with 1 answers, 3 passages, 3 segments",
+                "debugId": "3e49b2be-f911-4164-ab5a-7adfc9a4b785",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf"
+              }
+            ],
+            "name": "Call Search with original query [unstructured documents]"
+          },
+          {
+            "responses": [
+              {
+                "text": "Swami Vivekananda (/ˈswɑːmi ˌvɪveɪˈkɑːnəndə/; Bengali: [ʃami bibekanɔndo] ⓘ; IAST: Swāmī Vivekānanda ; 12 January 1863 – 4 July 1902), born Narendranath Datta (Bengali: [nɔrendronatʰ dɔto]), was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna.[4][5] He was a key figure in the introduction of Vedanta and Yoga to the Western world,[6][7][8] and the father of modern Indian nationalism who is credited with raising interfaith awareness and bringing Hinduism to the status of a major world religion.[9]",
+                "debugId": "d8509a66-4c9f-4a22-811e-ef664d4aaa66",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "After great success at the Parliament, in the subsequent years, Vivekananda delivered hundreds of lectures across the United States, England and Europe, disseminating the core tenets of Hindu philosophy, and founded the Vedanta Society of New York and the Vedanta Society of San Francisco (now Vedanta Society of Northern California),[13] both of which became the foundations for Vedanta Societies in the West. In India, Vivekananda founded the Ramakrishna Math, which provides spiritual training for monastics and householder devotees, and the Ramakrishna Mission, which provides charity, social work and education.[7] Vivekananda was one of the most influential philosophers and social reformers in his contemporary India, and the most successful missionaries of Vedanta to the Western world. He was also a major force in contemporary Hindu reform movements and contributed to the concept of nationalism in colonial India.[14] He is now widely regarded as one of the most influential people of modern India and a patriotic saint. His birthday in India is celebrated as National Youth Day.[15][16]",
+                "debugId": "10797e6b-14cf-4d5a-bf0f-2a1385f59f9d",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "Born into an aristocratic Bengali Kayastha family in Calcutta, Vivekananda was inclined from a young age towards religion and spirituality. He later found his guru Ramakrishna and became a monk. After the death of Ramakrishna, Vivekananda extensively toured the Indian subcontinent acquiring first-hand knowledge of the living conditions of Indian people in then British India. Moved by their plight, he resolved to help his countrymen and found a way to travel to the United States, where he became a popular figure after the 1893 Parliament of Religions in Chicago at which he delivered his famous speech beginning with the words: \"Sisters and brothers of America ...\" while introducing Hinduism to Americans.[10][11] He was so impactful at the Parliament that an American newspaper described him as \"an orator by divine right and undoubtedly the greatest figure at the Parliament\".[12]",
+                "debugId": "d1125862-d547-4bf0-8cb8-df8d56d7a94e",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "After the death of Ramakrishna, Vivekananda extensively toured the Indian subcontinent acquiring first-hand knowledge of the living conditions of Indian people in then British India.",
+                "debugId": "ea8917f5-36a9-4c16-ba0a-f610b7b71eab",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "Swami Vivekananda (/ˈswɑːmi ˌvɪveɪˈkɑːnəndə/; Bengali: [ʃami bibekanɔndo] ⓘ; IAST: Swāmī Vivekānanda ; 12 January 1863 – 4 July 1902), born Narendranath Datta (Bengali: [nɔrendronatʰ dɔto]), was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna.[4][5] He was a key figure in the introduction of Vedanta and Yoga to the Western world,[6][7][8] and the father of modern Indian nationalism who is credited with raising interfaith awareness and bringing Hinduism to the status of a major world religion.[9]",
+                "debugId": "833b84d9-3dcc-401e-ad42-a1430d785477",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Convert UCS results for original query"
+          },
+          {
+            "responses": [
+              {
+                "text": "I should search for information about when Swami Vivekananda died.\nAction: Search\nAction Input: When did Swami Vivekananda die?"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Query rewrite"
+          },
+          {
+            "status": {
+              "code": "OK"
+            },
+            "name": "Responsible AI (with original query)"
+          },
+          {
+            "info": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778",
+            "status": {
+              "code": "OK"
+            },
+            "responses": [
+              {
+                "text": "Ucs content search result with 1 answers, 3 passages, 3 segments",
+                "debugId": "c1d7e285-a0fc-4643-83ee-42b748aa6a64",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf"
+              }
+            ],
+            "name": "Call Search with rewritten query [unstructured documents]"
+          },
+          {
+            "responses": [
+              {
+                "text": "Swami Vivekananda (/ˈswɑːmi ˌvɪveɪˈkɑːnəndə/; Bengali: [ʃami bibekanɔndo] ⓘ; IAST: Swāmī Vivekānanda ; 12 January 1863 – 4 July 1902), born Narendranath Datta (Bengali: [nɔrendronatʰ dɔto]), was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna.[4][5] He was a key figure in the introduction of Vedanta and Yoga to the Western world,[6][7][8] and the father of modern Indian nationalism who is credited with raising interfaith awareness and bringing Hinduism to the status of a major world religion.[9]",
+                "debugId": "6dab1bf6-e19a-47cd-9881-c0986223a428",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "After great success at the Parliament, in the subsequent years, Vivekananda delivered hundreds of lectures across the United States, England and Europe, disseminating the core tenets of Hindu philosophy, and founded the Vedanta Society of New York and the Vedanta Society of San Francisco (now Vedanta Society of Northern California),[13] both of which became the foundations for Vedanta Societies in the West. In India, Vivekananda founded the Ramakrishna Math, which provides spiritual training for monastics and householder devotees, and the Ramakrishna Mission, which provides charity, social work and education.[7] Vivekananda was one of the most influential philosophers and social reformers in his contemporary India, and the most successful missionaries of Vedanta to the Western world. He was also a major force in contemporary Hindu reform movements and contributed to the concept of nationalism in colonial India.[14] He is now widely regarded as one of the most influential people of modern India and a patriotic saint. His birthday in India is celebrated as National Youth Day.[15][16]",
+                "debugId": "e901a7c8-ccb6-40fb-9e49-35201a95d25e",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "Born into an aristocratic Bengali Kayastha family in Calcutta, Vivekananda was inclined from a young age towards religion and spirituality. He later found his guru Ramakrishna and became a monk. After the death of Ramakrishna, Vivekananda extensively toured the Indian subcontinent acquiring first-hand knowledge of the living conditions of Indian people in then British India. Moved by their plight, he resolved to help his countrymen and found a way to travel to the United States, where he became a popular figure after the 1893 Parliament of Religions in Chicago at which he delivered his famous speech beginning with the words: \"Sisters and brothers of America ...\" while introducing Hinduism to Americans.[10][11] He was so impactful at the Parliament that an American newspaper described him as \"an orator by divine right and undoubtedly the greatest figure at the Parliament\".[12]",
+                "debugId": "1def89a9-fe60-4802-9695-5c67bcc2937c",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "Swami Vivekananda (/ˈswɑːmi ˌvɪveɪˈkɑːnəndə/; Bengali: [ʃami bibekanɔndo] ⓘ; IAST: Swāmī Vivekānanda ; 12 January 1863 – 4 July 1902), born Narendranath Datta (Bengali: [nɔrendronatʰ dɔto]), was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna.[4][5] He was a key figure in the introduction of Vedanta and Yoga to the Western world,[6][7][8] and the father of modern Indian nationalism who is credited with raising interfaith awareness and bringing Hinduism to the status of a major world religion.[9] Born into an aristocratic Bengali Kayastha family in Calcutta, Vivekananda was inclined from a young age towards religion and spirituality.",
+                "debugId": "e30e026f-8f80-4a38-bd6b-35e54fae029c",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "Swami Vivekananda (/ˈswɑːmi ˌvɪveɪˈkɑːnəndə/; Bengali: [ʃami bibekanɔndo] ⓘ; IAST: Swāmī Vivekānanda ; 12 January 1863 – 4 July 1902), born Narendranath Datta (Bengali: [nɔrendronatʰ dɔto]), was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna.[4][5] He was a key figure in the introduction of Vedanta and Yoga to the Western world,[6][7][8] and the father of modern Indian nationalism who is credited with raising interfaith awareness and bringing Hinduism to the status of a major world religion.[9]",
+                "debugId": "79b6a5cf-8198-40bc-a485-9a1db489e9e6",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Convert UCS results for rewritten query"
+          },
+          {
+            "responses": [
+              {
+                "text": "Swami Vivekananda died on 4 July 1902. [1]"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "ReAct turn"
+          },
+          {
+            "info": "Source: 6dab1bf6-e19a-47cd-9881-c0986223a428",
+            "status": {
+              "code": "OK"
+            },
+            "name": "Parse ReAct Answer"
+          },
+          {
+            "responses": [
+              {
+                "text": "Grounding accepted"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Grounding"
+          },
+          {
+            "status": {
+              "code": "OK"
+            },
+            "name": "Responsible AI (with result before grounding)"
+          },
+          {
+            "status": {
+              "code": "OK"
+            },
+            "name": "Responsible AI (with original query and result)"
+          }
+        ],
+        "additionalInfo": {
+          "ucs_project_number": "427850130417",
+          "user_query": "when did he die?",
+          "rewritten_query": "When did Swami Vivekananda die?",
+          "tracking_id": "24b59e46-855f-4121-9458-7879dfe2b96c",
+          "agent_project_number": "427850130417"
+        }
+      },
+      "Response Id": "ab4664d1-638d-4669-942c-d2951b1115ec",
+      "Session Id": "9cebd121-ed90-4a90-b633-dffc53135f34",
+      "Execution Sequence": [
+        {
+          "Step 1": {
+            "Type": "INITIAL_STATE",
+            "InitialState": {
+              "FlowState": {
+                "FlowId": "00000000-0000-0000-0000-000000000000",
+                "Name": "Default Start Flow",
+                "Version": 0.0,
+                "PageState": {
+                  "Status": "TRANSITION_ROUTING",
+                  "Name": "Start Page",
+                  "PageId": "START_PAGE"
+                }
+              },
+              "Event": ""
+            }
+          }
+        },
+        {
+          "Step 2": {
+            "FunctionExecution": {
+              "Responses": [
+                {
+                  "text": {
+                    "redactedText": [
+                      "Swami Vivekananda died on 4 July 1902."
+                    ],
+                    "containDataStoreContent": true,
+                    "containAiGeneratedContent": true,
+                    "text": [
+                      "Swami Vivekananda died on 4 July 1902."
+                    ],
+                    "containAttemptedDataStoreInteractions": true
+                  },
+                  "responseType": "HANDLER_PROMPT",
+                  "source": "VIRTUAL_AGENT"
+                },
+                {
+                  "responseType": "HANDLER_PROMPT",
+                  "source": "VIRTUAL_AGENT",
+                  "payload": {
+                    "richContent": [
+                      [
+                        {
+                          "actionLink": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1",
+                          "type": "info",
+                          "subtitle": "Swami Vivekananda (/ˈswɑːmi ˌvɪveɪˈkɑːnəndə/; Bengali: [ʃami bibekanɔndo] ⓘ; IAST: Swāmī Vivekānanda ; 12 January 1863 …",
+                          "title": "Swami Vivekananda"
+                        }
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "Type": "STATE_MACHINE",
+            "StateMachine": {
+              "FlowState": {
+                "FlowId": "00000000-0000-0000-0000-000000000000",
+                "Name": "Default Start Flow",
+                "Version": 0.0,
+                "PageState": {
+                  "Status": "TRANSITION_ROUTING",
+                  "Name": "Start Page",
+                  "PageId": "START_PAGE"
+                }
+              },
+              "TriggeredTransitionRouteId": "kc-driven-transition"
+            }
+          }
+        },
+        {
+          "Step 3": {
+            "Type": "STATE_MACHINE",
+            "StateMachine": {
+              "FlowState": {
+                "FlowId": "00000000-0000-0000-0000-000000000000",
+                "PageState": {
+                  "Status": "TRANSITION_ROUTING",
+                  "Name": "Start Page",
+                  "PageId": "START_PAGE"
+                },
+                "Version": 0.0,
+                "Name": "Default Start Flow"
+              }
+            }
+          }
+        }
+      ],
+      "Triggered Transition Names": [
+        "kc-driven-transition"
+      ]
+    },
+    "match": {
+      "confidence": 1.0
+    },
+    "advancedSettings": {
+      "loggingSettings": {}
+    }
+  },
+  "responseType": "FINAL"
+}

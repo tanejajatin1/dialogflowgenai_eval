@@ -1,0 +1,289 @@
+{
+  "responseId": "182bc927-807b-4925-99f5-c6172bcac220",
+  "queryResult": {
+    "text": "what did he do?",
+    "languageCode": "en",
+    "responseMessages": [
+      {
+        "text": {
+          "text": [
+            "Swami Vivekananda founded the Ramakrishna Math, which provides spiritual training for monastics and householder devotees, and the Ramakrishna Mission, which provides charity, social work and education. He was one of the most influential philosophers and social reformers in his contemporary India, and the most successful missionaries of Vedanta to the Western world."
+          ]
+        }
+      },
+      {
+        "payload": {
+          "richContent": [
+            [
+              {
+                "actionLink": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1",
+                "type": "info",
+                "title": "Swami Vivekananda",
+                "subtitle": "In India, Vivekananda founded the Ramakrishna Math, which provides spiritual training for monastics and householder…"
+              }
+            ]
+          ]
+        }
+      }
+    ],
+    "currentPage": {
+      "name": "projects/ai-learnings-411713/locations/global/agents/23ed144e-d322-4a28-91a1-6d8088a72cda/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+      "displayName": "Start Page"
+    },
+    "intentDetectionConfidence": 1.0,
+    "diagnosticInfo": {
+      "Session Id": "c707ebd3-d4cd-4817-8a44-2a7b2dabbd97",
+      "Response Id": "182bc927-807b-4925-99f5-c6172bcac220",
+      "DataStore Execution Sequence": {
+        "executionResult": {
+          "language": "en",
+          "latency": 0.0,
+          "website_citation": false,
+          "banned_phrase": "",
+          "faq_citation": false,
+          "response_reason": "NONE",
+          "response_type": "GENERATIVE",
+          "unstructured_citation": true,
+          "ucs_fallback": false
+        },
+        "steps": [
+          {
+            "responses": [
+              {
+                "text": "Ucs content search result with 1 answers, 3 passages, 0 segments",
+                "debugId": "7f320fc7-49b1-4857-9285-7f5abd773fd2",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "info": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778",
+            "name": "Call Search with original query [unstructured documents]"
+          },
+          {
+            "responses": [
+              {
+                "text": "After the death of Ramakrishna, Vivekananda extensively toured the Indian subcontinent acquiring first-hand knowledge of the living conditions of Indian people in then British India.",
+                "debugId": "c654eace-174c-49e4-8f85-c87c26cf9c73",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "After the death of Ramakrishna, Vivekananda extensively toured the Indian subcontinent acquiring first-hand knowledge of the living conditions of Indian people in then British India.",
+                "debugId": "fedac075-b714-499e-82bb-e36b909bac19",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Convert UCS results for original query"
+          },
+          {
+            "responses": [
+              {
+                "text": "I should search for information about what Swami Vivekananda did.\nAction: Search\nAction Input: What did Swami Vivekananda do?"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Query rewrite"
+          },
+          {
+            "status": {
+              "code": "OK"
+            },
+            "name": "Responsible AI (with original query)"
+          },
+          {
+            "responses": [
+              {
+                "text": "Ucs content search result with 1 answers, 3 passages, 0 segments",
+                "debugId": "6cf00ae5-505e-48b7-8f67-41c1743eb117",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "info": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778",
+            "name": "Call Search with rewritten query [unstructured documents]"
+          },
+          {
+            "responses": [
+              {
+                "text": "In India, Vivekananda founded the Ramakrishna Math, which provides spiritual training for monastics and householder devotees, and the Ramakrishna Mission, which provides charity, social work and education.[7] Vivekananda was one of the most influential philosophers and social reformers in his contemporary India, and the most successful missionaries of Vedanta to the Western world.",
+                "debugId": "fa19d8a5-7d3d-4163-b2d3-eef4a5112905",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "In India, Vivekananda founded the Ramakrishna Math, which provides spiritual training for monastics and householder devotees, and the Ramakrishna Mission, which provides charity, social work and education.[7] Vivekananda was one of the most influential philosophers and social reformers in his contemporary India, and the most successful missionaries of Vedanta to the Western world.",
+                "debugId": "0255de06-7d04-4e55-89dc-1f55b771ef78",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Convert UCS results for rewritten query"
+          },
+          {
+            "responses": [
+              {
+                "text": "The search results are relevant and [a] contains all information. I will follow answering guideline 3 [a].\nSource: [a]\nFinal Answer: Swami Vivekananda founded the Ramakrishna Math, which provides spiritual training for monastics and householder devotees, and the Ramakrishna Mission, which provides charity, social work and education. He was one of the most influential philosophers and social reformers in his contemporary India, and the most successful missionaries of Vedanta to the Western world."
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "ReAct turn"
+          },
+          {
+            "info": "Source: fa19d8a5-7d3d-4163-b2d3-eef4a5112905",
+            "status": {
+              "code": "OK"
+            },
+            "name": "Parse ReAct Answer"
+          },
+          {
+            "responses": [
+              {
+                "text": "Grounding accepted"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Grounding"
+          },
+          {
+            "status": {
+              "code": "OK"
+            },
+            "name": "Responsible AI (with result before grounding)"
+          },
+          {
+            "status": {
+              "code": "OK"
+            },
+            "name": "Responsible AI (with original query and result)"
+          }
+        ],
+        "additionalInfo": {
+          "ucs_project_number": "427850130417",
+          "user_query": "what did he do?",
+          "rewritten_query": "What did Swami Vivekananda do?",
+          "tracking_id": "f02b7793-a523-49e6-9a67-67e00182b270",
+          "agent_project_number": "427850130417"
+        }
+      },
+      "Execution Sequence": [
+        {
+          "Step 1": {
+            "Type": "INITIAL_STATE",
+            "InitialState": {
+              "Event": "",
+              "FlowState": {
+                "FlowId": "00000000-0000-0000-0000-000000000000",
+                "Name": "Default Start Flow",
+                "PageState": {
+                  "Status": "TRANSITION_ROUTING",
+                  "Name": "Start Page",
+                  "PageId": "START_PAGE"
+                },
+                "Version": 0.0
+              }
+            }
+          }
+        },
+        {
+          "Step 2": {
+            "FunctionExecution": {
+              "Responses": [
+                {
+                  "text": {
+                    "redactedText": [
+                      "Swami Vivekananda founded the Ramakrishna Math, which provides spiritual training for monastics and householder devotees, and the Ramakrishna Mission, which provides charity, social work and education. He was one of the most influential philosophers and social reformers in his contemporary India, and the most successful missionaries of Vedanta to the Western world."
+                    ],
+                    "containDataStoreContent": true,
+                    "containAiGeneratedContent": true,
+                    "text": [
+                      "Swami Vivekananda founded the Ramakrishna Math, which provides spiritual training for monastics and householder devotees, and the Ramakrishna Mission, which provides charity, social work and education. He was one of the most influential philosophers and social reformers in his contemporary India, and the most successful missionaries of Vedanta to the Western world."
+                    ],
+                    "containAttemptedDataStoreInteractions": true
+                  },
+                  "responseType": "HANDLER_PROMPT",
+                  "source": "VIRTUAL_AGENT"
+                },
+                {
+                  "responseType": "HANDLER_PROMPT",
+                  "source": "VIRTUAL_AGENT",
+                  "payload": {
+                    "richContent": [
+                      [
+                        {
+                          "title": "Swami Vivekananda",
+                          "type": "info",
+                          "actionLink": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1",
+                          "subtitle": "In India, Vivekananda founded the Ramakrishna Math, which provides spiritual training for monastics and householder…"
+                        }
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "Type": "STATE_MACHINE",
+            "StateMachine": {
+              "FlowState": {
+                "FlowId": "00000000-0000-0000-0000-000000000000",
+                "Version": 0.0,
+                "PageState": {
+                  "Status": "TRANSITION_ROUTING",
+                  "Name": "Start Page",
+                  "PageId": "START_PAGE"
+                },
+                "Name": "Default Start Flow"
+              },
+              "TriggeredTransitionRouteId": "kc-driven-transition"
+            }
+          }
+        },
+        {
+          "Step 3": {
+            "Type": "STATE_MACHINE",
+            "StateMachine": {
+              "FlowState": {
+                "FlowId": "00000000-0000-0000-0000-000000000000",
+                "Version": 0.0,
+                "Name": "Default Start Flow",
+                "PageState": {
+                  "Status": "TRANSITION_ROUTING",
+                  "Name": "Start Page",
+                  "PageId": "START_PAGE"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "Triggered Transition Names": [
+        "kc-driven-transition"
+      ]
+    },
+    "match": {
+      "confidence": 1.0
+    },
+    "advancedSettings": {
+      "loggingSettings": {}
+    }
+  },
+  "responseType": "FINAL"
+}

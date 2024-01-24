@@ -1,0 +1,271 @@
+{
+  "responseId": "066250e4-5b56-414e-b8fb-9fcd01ec02e1",
+  "queryResult": {
+    "text": "when was he born?",
+    "languageCode": "en",
+    "responseMessages": [
+      {
+        "text": {
+          "text": [
+            "Swami Vivekananda was born on 12 January 1863."
+          ]
+        }
+      },
+      {
+        "payload": {
+          "richContent": [
+            [
+              {
+                "title": "Swami Vivekananda",
+                "type": "info",
+                "subtitle": "Swami Vivekananda (/ˈswɑːmi ˌvɪveɪˈkɑːnəndə/; Bengali: [ʃami bibekanɔndo] ⓘ; IAST: Swāmī Vivekānanda ; 12 January 1863 …",
+                "actionLink": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              }
+            ]
+          ]
+        }
+      }
+    ],
+    "currentPage": {
+      "name": "projects/ai-learnings-411713/locations/global/agents/23ed144e-d322-4a28-91a1-6d8088a72cda/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+      "displayName": "Start Page"
+    },
+    "intentDetectionConfidence": 1.0,
+    "diagnosticInfo": {
+      "DataStore Execution Sequence": {
+        "executionResult": {
+          "language": "en",
+          "latency": 0.0,
+          "website_citation": false,
+          "response_reason": "NONE",
+          "banned_phrase": "",
+          "faq_citation": false,
+          "response_type": "GENERATIVE",
+          "unstructured_citation": true,
+          "ucs_fallback": false
+        },
+        "steps": [
+          {
+            "responses": [
+              {
+                "text": "Ucs content search result with 1 answers, 3 passages, 3 segments",
+                "debugId": "0f62fb7f-1822-49a4-b338-ec989d2e16ef",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "info": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778",
+            "name": "Call Search with original query [unstructured documents]"
+          },
+          {
+            "responses": [
+              {
+                "text": "Swami Vivekananda (/ˈswɑːmi ˌvɪveɪˈkɑːnəndə/; Bengali: [ʃami bibekanɔndo] ⓘ; IAST: Swāmī Vivekānanda ; 12 January 1863 – 4 July 1902), born Narendranath Datta (Bengali: [nɔrendronatʰ dɔto]), was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna.[4][5] He was a key figure in the introduction of Vedanta and Yoga to the Western world,[6][7][8] and the father of modern Indian nationalism who is credited with raising interfaith awareness and bringing Hinduism to the status of a major world religion.[9]",
+                "debugId": "1319a11b-836f-4bcf-8893-69c1aec86c17",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "After great success at the Parliament, in the subsequent years, Vivekananda delivered hundreds of lectures across the United States, England and Europe, disseminating the core tenets of Hindu philosophy, and founded the Vedanta Society of New York and the Vedanta Society of San Francisco (now Vedanta Society of Northern California),[13] both of which became the foundations for Vedanta Societies in the West. In India, Vivekananda founded the Ramakrishna Math, which provides spiritual training for monastics and householder devotees, and the Ramakrishna Mission, which provides charity, social work and education.[7] Vivekananda was one of the most influential philosophers and social reformers in his contemporary India, and the most successful missionaries of Vedanta to the Western world. He was also a major force in contemporary Hindu reform movements and contributed to the concept of nationalism in colonial India.[14] He is now widely regarded as one of the most influential people of modern India and a patriotic saint. His birthday in India is celebrated as National Youth Day.[15][16]",
+                "debugId": "c52cbbcd-eb2f-463e-af84-8be44f421c44",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "Born into an aristocratic Bengali Kayastha family in Calcutta, Vivekananda was inclined from a young age towards religion and spirituality. He later found his guru Ramakrishna and became a monk. After the death of Ramakrishna, Vivekananda extensively toured the Indian subcontinent acquiring first-hand knowledge of the living conditions of Indian people in then British India. Moved by their plight, he resolved to help his countrymen and found a way to travel to the United States, where he became a popular figure after the 1893 Parliament of Religions in Chicago at which he delivered his famous speech beginning with the words: \"Sisters and brothers of America ...\" while introducing Hinduism to Americans.[10][11] He was so impactful at the Parliament that an American newspaper described him as \"an orator by divine right and undoubtedly the greatest figure at the Parliament\".[12]",
+                "debugId": "bfa72c2e-af3c-4549-9295-ca4887eb6a7d",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "After the death of Ramakrishna, Vivekananda extensively toured the Indian subcontinent acquiring first-hand knowledge of the living conditions of Indian people in then British India.",
+                "debugId": "189fa224-18ee-4993-b816-927911689ba7",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "Swami Vivekananda (/ˈswɑːmi ˌvɪveɪˈkɑːnəndə/; Bengali: [ʃami bibekanɔndo] ⓘ; IAST: Swāmī Vivekānanda ; 12 January 1863 – 4 July 1902), born Narendranath Datta (Bengali: [nɔrendronatʰ dɔto]), was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna.[4][5] He was a key figure in the introduction of Vedanta and Yoga to the Western world,[6][7][8] and the father of modern Indian nationalism who is credited with raising interfaith awareness and bringing Hinduism to the status of a major world religion.[9]",
+                "debugId": "00f52492-07b4-4564-9f68-2192ae9b7941",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Convert UCS results for original query"
+          },
+          {
+            "responses": [
+              {
+                "text": "I don't know what you are talking about.\nAction: no_action\nAction Input: None"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Query rewrite"
+          },
+          {
+            "status": {
+              "code": "OK"
+            },
+            "name": "Responsible AI (with original query)"
+          },
+          {
+            "responses": [
+              {
+                "text": "Swami Vivekananda was born on 12 January 1863. [1]"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "ReAct turn"
+          },
+          {
+            "info": "Source: 1319a11b-836f-4bcf-8893-69c1aec86c17",
+            "status": {
+              "code": "OK"
+            },
+            "name": "Parse ReAct Answer"
+          },
+          {
+            "responses": [
+              {
+                "text": "Grounding accepted"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Grounding"
+          },
+          {
+            "status": {
+              "code": "OK"
+            },
+            "name": "Responsible AI (with result before grounding)"
+          },
+          {
+            "status": {
+              "code": "OK"
+            },
+            "name": "Responsible AI (with original query and result)"
+          }
+        ],
+        "additionalInfo": {
+          "ucs_project_number": "427850130417",
+          "user_query": "when was he born?",
+          "tracking_id": "c36c76ac-4b35-4fa2-8926-cf004b9c77f1",
+          "agent_project_number": "427850130417"
+        }
+      },
+      "Response Id": "066250e4-5b56-414e-b8fb-9fcd01ec02e1",
+      "Session Id": "9cebd121-ed90-4a90-b633-dffc53135f34",
+      "Execution Sequence": [
+        {
+          "Step 1": {
+            "Type": "INITIAL_STATE",
+            "InitialState": {
+              "Event": "",
+              "FlowState": {
+                "FlowId": "00000000-0000-0000-0000-000000000000",
+                "Name": "Default Start Flow",
+                "PageState": {
+                  "Status": "ENTERING_PAGE",
+                  "Name": "Start Page",
+                  "PageId": "START_PAGE"
+                },
+                "Version": 0.0
+              }
+            }
+          }
+        },
+        {
+          "Step 2": {
+            "StateMachine": {
+              "FlowState": {
+                "FlowId": "00000000-0000-0000-0000-000000000000",
+                "Version": 0.0,
+                "Name": "Default Start Flow",
+                "PageState": {
+                  "Status": "TRANSITION_ROUTING",
+                  "Name": "Start Page",
+                  "PageId": "START_PAGE"
+                }
+              },
+              "TriggeredTransitionRouteId": "kc-driven-transition"
+            },
+            "Type": "STATE_MACHINE",
+            "FunctionExecution": {
+              "Responses": [
+                {
+                  "responseType": "HANDLER_PROMPT",
+                  "text": {
+                    "text": [
+                      "Swami Vivekananda was born on 12 January 1863."
+                    ],
+                    "containDataStoreContent": true,
+                    "containAiGeneratedContent": true,
+                    "redactedText": [
+                      "Swami Vivekananda was born on 12 January 1863."
+                    ],
+                    "containAttemptedDataStoreInteractions": true
+                  },
+                  "source": "VIRTUAL_AGENT"
+                },
+                {
+                  "responseType": "HANDLER_PROMPT",
+                  "source": "VIRTUAL_AGENT",
+                  "payload": {
+                    "richContent": [
+                      [
+                        {
+                          "title": "Swami Vivekananda",
+                          "subtitle": "Swami Vivekananda (/ˈswɑːmi ˌvɪveɪˈkɑːnəndə/; Bengali: [ʃami bibekanɔndo] ⓘ; IAST: Swāmī Vivekānanda ; 12 January 1863 …",
+                          "type": "info",
+                          "actionLink": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+                        }
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Step 3": {
+            "Type": "STATE_MACHINE",
+            "StateMachine": {
+              "FlowState": {
+                "FlowId": "00000000-0000-0000-0000-000000000000",
+                "Version": 0.0,
+                "Name": "Default Start Flow",
+                "PageState": {
+                  "Status": "TRANSITION_ROUTING",
+                  "Name": "Start Page",
+                  "PageId": "START_PAGE"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "Triggered Transition Names": [
+        "kc-driven-transition"
+      ]
+    },
+    "match": {
+      "confidence": 1.0
+    },
+    "advancedSettings": {
+      "loggingSettings": {}
+    }
+  },
+  "responseType": "FINAL"
+}

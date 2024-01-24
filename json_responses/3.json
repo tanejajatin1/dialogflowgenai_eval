@@ -1,0 +1,289 @@
+{
+  "responseId": "1dae1f48-97cf-4acb-96c9-83d0f73653b2",
+  "queryResult": {
+    "text": "where was he born?",
+    "languageCode": "en",
+    "responseMessages": [
+      {
+        "text": {
+          "text": [
+            "Swami Vivekananda was born in India. He extensively toured the Indian subcontinent after the death of Ramakrishna."
+          ]
+        }
+      },
+      {
+        "payload": {
+          "richContent": [
+            [
+              {
+                "title": "Swami Vivekananda",
+                "subtitle": "After the death of Ramakrishna, Vivekananda extensively toured the Indian subcontinent acquiring first-hand knowledge…",
+                "actionLink": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1",
+                "type": "info"
+              }
+            ]
+          ]
+        }
+      }
+    ],
+    "currentPage": {
+      "name": "projects/ai-learnings-411713/locations/global/agents/23ed144e-d322-4a28-91a1-6d8088a72cda/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+      "displayName": "Start Page"
+    },
+    "intentDetectionConfidence": 1.0,
+    "diagnosticInfo": {
+      "DataStore Execution Sequence": {
+        "executionResult": {
+          "language": "en",
+          "latency": 0.0,
+          "website_citation": false,
+          "faq_citation": false,
+          "banned_phrase": "",
+          "response_reason": "NONE",
+          "response_type": "GENERATIVE",
+          "unstructured_citation": true,
+          "ucs_fallback": false
+        },
+        "steps": [
+          {
+            "info": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778",
+            "status": {
+              "code": "OK"
+            },
+            "responses": [
+              {
+                "text": "Ucs content search result with 1 answers, 3 passages, 0 segments",
+                "debugId": "766ba28a-7daa-4128-8bcd-cde200dc7676",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf"
+              }
+            ],
+            "name": "Call Search with original query [unstructured documents]"
+          },
+          {
+            "responses": [
+              {
+                "text": "After the death of Ramakrishna, Vivekananda extensively toured the Indian subcontinent acquiring first-hand knowledge of the living conditions of Indian people in then British India.",
+                "debugId": "244e90ef-44ba-4a0f-8fa3-29a8a0d04e63",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "After the death of Ramakrishna, Vivekananda extensively toured the Indian subcontinent acquiring first-hand knowledge of the living conditions of Indian people in then British India.",
+                "debugId": "20872afe-d036-43fd-ad85-9b5368f6d603",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Convert UCS results for original query"
+          },
+          {
+            "responses": [
+              {
+                "text": "I should search for information about where Swami Vivekananda was born.\nAction: Search\nAction Input: Where was Swami Vivekananda born?"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Query rewrite"
+          },
+          {
+            "status": {
+              "code": "OK"
+            },
+            "name": "Responsible AI (with original query)"
+          },
+          {
+            "info": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778",
+            "status": {
+              "code": "OK"
+            },
+            "responses": [
+              {
+                "text": "Ucs content search result with 1 answers, 3 passages, 0 segments",
+                "debugId": "826cea0b-5f1f-486c-a5d1-11db168c0bd1",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf"
+              }
+            ],
+            "name": "Call Search with rewritten query [unstructured documents]"
+          },
+          {
+            "responses": [
+              {
+                "text": "After the death of Ramakrishna, Vivekananda extensively toured the Indian subcontinent acquiring first-hand knowledge of the living conditions of Indian people in then British India.",
+                "debugId": "73abde42-647a-4929-bbfa-985029589e2b",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              },
+              {
+                "text": "After the death of Ramakrishna, Vivekananda extensively toured the Indian subcontinent acquiring first-hand knowledge of the living conditions of Indian people in then British India.",
+                "debugId": "a062f6b9-8d4f-4232-b71e-d564b0047b7b",
+                "document": "projects/427850130417/locations/global/collections/default_collection/dataStores/gen-ai-test_1705675215778/branches/0/documents/bd3fb1704e7ad6866bd0b9cb9c2e87c5",
+                "url": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Convert UCS results for rewritten query"
+          },
+          {
+            "responses": [
+              {
+                "text": "The search results are relevant but information is missing. I will follow answering guideline 4 and reference [a].\nSource: [a]\nFinal Answer: Swami Vivekananda was born in India. He extensively toured the Indian subcontinent after the death of Ramakrishna."
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "ReAct turn"
+          },
+          {
+            "info": "Source: 73abde42-647a-4929-bbfa-985029589e2b",
+            "status": {
+              "code": "OK"
+            },
+            "name": "Parse ReAct Answer"
+          },
+          {
+            "responses": [
+              {
+                "text": "Grounding accepted"
+              }
+            ],
+            "status": {
+              "code": "OK"
+            },
+            "name": "Grounding"
+          },
+          {
+            "status": {
+              "code": "OK"
+            },
+            "name": "Responsible AI (with result before grounding)"
+          },
+          {
+            "status": {
+              "code": "OK"
+            },
+            "name": "Responsible AI (with original query and result)"
+          }
+        ],
+        "additionalInfo": {
+          "ucs_project_number": "427850130417",
+          "user_query": "where was he born?",
+          "rewritten_query": "Where was Swami Vivekananda born?",
+          "tracking_id": "fc94a72d-bed9-47d6-96f2-bffa4ad9c109",
+          "agent_project_number": "427850130417"
+        }
+      },
+      "Response Id": "1dae1f48-97cf-4acb-96c9-83d0f73653b2",
+      "Session Id": "c707ebd3-d4cd-4817-8a44-2a7b2dabbd97",
+      "Execution Sequence": [
+        {
+          "Step 1": {
+            "Type": "INITIAL_STATE",
+            "InitialState": {
+              "FlowState": {
+                "FlowId": "00000000-0000-0000-0000-000000000000",
+                "Version": 0.0,
+                "Name": "Default Start Flow",
+                "PageState": {
+                  "Status": "TRANSITION_ROUTING",
+                  "Name": "Start Page",
+                  "PageId": "START_PAGE"
+                }
+              },
+              "Event": ""
+            }
+          }
+        },
+        {
+          "Step 2": {
+            "StateMachine": {
+              "FlowState": {
+                "FlowId": "00000000-0000-0000-0000-000000000000",
+                "Version": 0.0,
+                "PageState": {
+                  "Status": "TRANSITION_ROUTING",
+                  "Name": "Start Page",
+                  "PageId": "START_PAGE"
+                },
+                "Name": "Default Start Flow"
+              },
+              "TriggeredTransitionRouteId": "kc-driven-transition"
+            },
+            "Type": "STATE_MACHINE",
+            "FunctionExecution": {
+              "Responses": [
+                {
+                  "text": {
+                    "redactedText": [
+                      "Swami Vivekananda was born in India. He extensively toured the Indian subcontinent after the death of Ramakrishna."
+                    ],
+                    "containDataStoreContent": true,
+                    "containAiGeneratedContent": true,
+                    "text": [
+                      "Swami Vivekananda was born in India. He extensively toured the Indian subcontinent after the death of Ramakrishna."
+                    ],
+                    "containAttemptedDataStoreInteractions": true
+                  },
+                  "responseType": "HANDLER_PROMPT",
+                  "source": "VIRTUAL_AGENT"
+                },
+                {
+                  "responseType": "HANDLER_PROMPT",
+                  "source": "VIRTUAL_AGENT",
+                  "payload": {
+                    "richContent": [
+                      [
+                        {
+                          "actionLink": "https://storage.cloud.google.com/content-for-genai/Swami Vivekananda.pdf#page=1",
+                          "type": "info",
+                          "subtitle": "After the death of Ramakrishna, Vivekananda extensively toured the Indian subcontinent acquiring first-hand knowledge…",
+                          "title": "Swami Vivekananda"
+                        }
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Step 3": {
+            "Type": "STATE_MACHINE",
+            "StateMachine": {
+              "FlowState": {
+                "FlowId": "00000000-0000-0000-0000-000000000000",
+                "Name": "Default Start Flow",
+                "Version": 0.0,
+                "PageState": {
+                  "Status": "TRANSITION_ROUTING",
+                  "Name": "Start Page",
+                  "PageId": "START_PAGE"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "Triggered Transition Names": [
+        "kc-driven-transition"
+      ]
+    },
+    "match": {
+      "confidence": 1.0
+    },
+    "advancedSettings": {
+      "loggingSettings": {}
+    }
+  },
+  "responseType": "FINAL"
+}
